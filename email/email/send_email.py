@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from flask_cors import CORS, cross_origin # type: ignore
+from flask_cors import CORS
 from mail_notes import send_notes_email
 
 app = Flask(__name__)
